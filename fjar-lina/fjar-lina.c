@@ -67,8 +67,8 @@ task linefollower(){
     if(SensorValue(lineFollowerCENTER) > threshold)
     {
       // go straight
-      motor[leftMotor]  = 47;
-      motor[rightMotor] = 47;
+      motor[leftMotor]  = 31;
+      motor[rightMotor] = 31;
     }
     // LEFT sensor sees dark:
     if(SensorValue(lineFollowerRIGHT) > threshold)
